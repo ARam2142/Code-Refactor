@@ -124,8 +124,8 @@ h2 {
 
 /***This is the footer***/
 .footer { 
-    padding: 30px;
-    clear: both;
+    padding: 30px; /*padding is 30px all around in footer*/
+    clear: both; 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
