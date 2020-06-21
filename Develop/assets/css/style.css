@@ -5,9 +5,10 @@
 }
 
 body {
-    background-color: #d9dcd6;
+    background-color: #d9dcd6; /*set background color to white*/
 }
 
+/***header section***/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -16,111 +17,113 @@ body {
 }
 
 .header h1 {
-    display: inline-block;
-    font-size: 48px;
+    display: inline-block;/*h1 header will be shifted to far left*/
+    font-size: 48px;/*h1 header will have 48px*/
 }
 
 .header h1 .seo {
-    color: #d9dcd6;
+    color: #d9dcd6;/*h1 header will be white*/
 }
 
 .header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    padding-top: 15px;/*padding is 15px away from top*/
+    margin-right: 20px;/*margin is 20px away from right*/
+    float: right;/*floats right*/
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 20px;/*font is 20px*/
 }
 
 .header ul {
-    list-style-type: none;
+    list-style-type: none;/*there is no style type*/
 }
 
 .header ul li {
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 25px;/*shifts 25px away from left*/
 }
 
 a {
     color: #ffffff;
     text-decoration: none;
 }
+/***end of header section***/
 
 p {
-    font-size: 16px;
+    font-size: 16px;/*font size is 16px*/
 }
 
 .hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+    height: 800px;/*height is 800px high*/
+    width: 100%;/*width is 100% across screen*/
+    margin-bottom: 25px;/*hero class is shifted 25px away from bottom*/
+    background-image: url("../images/digital-marketing-meeting.jpg");/*url background image*/
+    background-size: cover;/*covers entire div hero*/
+    background-position: center;/*background is positioned in the center*/
 }
 
 .float-left {
-    float: left;
-    margin-right: 25px;
+    float: left;/*floats left*/
+    margin-right: 25px;/*shifts 25px away from right*/
 }
 
 .float-right {
-    float: right;
-    margin-left: 25px;
+    float: right;/* floats right*/
+    margin-left: 25px;/*shifts 25px away from left*/
 }
 
 .content {
-    width: 75%;
+    width: 75%;/*75% wide*/
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 20px;/*shifts 20px away from left*/
 }
 
 .benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    margin-right: 20px;/*shifts 20px away from the right*/
+    padding: 20px;/*padding is 20px all around*/
+    clear: both; /*does not touch other content on the left*/
+    float: right;/*goes to the right*/
+    width: 20%;/*width is 20%*/
+    height: 100%;/*height is 100*/
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;/*background color is light blue*/
 }
 
 .benefits section {
-    margin-bottom: 32px;
-    color: #ffffff;
+    margin-bottom: 32px;/*margin bottom is 32px*/
+    color: #ffffff;/* color is white*/
 }
 
 .benefits h3 {
-    margin-bottom: 10px;
-    text-align: center;
+    margin-bottom: 10px;/*margin bottom of 10px*/
+    text-align: center;/*centered*/
 }
 
 .benefits section img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+    display: block;/*takes up whole width*/
+    margin: 10px auto;/*has 10px margins on all sides*/
+    max-width: 150px;/*max width is 150px*/
 }
 
 .content section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    margin-bottom: 20px;/*section is shifted 20px away from bottom*/
+    padding: 50px;/*section is padded by 50px*/
+    height: 300px;/*section is 300px high*/
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;/*background color is blue*/
+    color: #ffffff;/*color is white smoke*/
 }
 
 .content img {
-    max-height: 200px;
+    max-height: 200px; /*.content image has maximum height of 200px*/
 }
 
 h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+    margin-bottom: 20px; /*h2 is shifted 20px away from the margin bottom*/
+    font-size: 36px; /*h2 is 36px*/
 }
 
-.footer {
+/***This is the footer***/
+.footer { 
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
