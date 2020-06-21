@@ -52,13 +52,18 @@ p {
     font-size: 16px;/*font size is 16px*/
 }
 
+h2 {
+    margin-bottom: 20px; /*h2 is shifted 20px away from the margin bottom*/
+    font-size: 36px; /*h2 is 36px*/
+}
+
 .hero {
-    height: 800px;/*height is 800px high*/
-    width: 100%;/*width is 100% across screen*/
-    margin-bottom: 25px;/*hero class is shifted 25px away from bottom*/
-    background-image: url("../images/digital-marketing-meeting.jpg");/*url background image*/
-    background-size: cover;/*covers entire div hero*/
-    background-position: center;/*background is positioned in the center*/
+    height: 800px; /*height is 800px high*/
+    width: 100%; /*width is 100% across screen*/
+    margin-bottom: 25px; /*hero class is shifted 25px away from bottom*/
+    background-image: url("../images/digital-marketing-meeting.jpg"); /*url background image*/
+    background-size: cover; /*covers entire div hero*/
+    background-position: center; /*background is positioned in the center*/
 }
 
 .float-left {
@@ -117,10 +122,6 @@ p {
     max-height: 200px; /*.content image has maximum height of 200px*/
 }
 
-h2 {
-    margin-bottom: 20px; /*h2 is shifted 20px away from the margin bottom*/
-    font-size: 36px; /*h2 is 36px*/
-}
 
 /***This is the footer***/
 .footer { 
