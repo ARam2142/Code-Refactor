@@ -1,2 +1,3 @@
 # Code-Refactor
-Revising html and css elements
+This is a page from Horiseon. 
+This page contains all information about search engines, optimizations and marketing.
